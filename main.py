@@ -131,7 +131,7 @@ for i, (a, b) in enumerate(questions):
         try:
             ui = int(ui)
         except ValueError:
-            pprint("??? try agin!")
+            pprint("??? try again!")
             print()
         if ui == a * b:
             if i + 1 < N:
